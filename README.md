@@ -1,7 +1,7 @@
 # Olegs_Stresser
 
 
-# HTTP Request Simulator
+# HTTP Request Simulator by https://vk.com/idstandoff185801691
 
 **Учебный проект** на Python для изучения отправки HTTP‑запросов и работы с библиотеками `requests` и `colorama`.
 
