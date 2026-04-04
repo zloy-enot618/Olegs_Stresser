@@ -1,115 +1,109 @@
-Ответ
-
-HTTP Request Simulator
-Учебный проект на Python для изучения отправки HTTP‑запросов и работы с библиотеками requests и colorama.
-
-⚠️ Важно: код предназначен исключительно для образовательных целей. Использование его для атак на реальные серверы запрещено и может нарушать законодательство.
-
-О проекте
-HTTP Request Simulator — учебный проект, демонстрирующий:
-
-отправку HTTP‑запросов к указанному URL;
-обработку ошибок и таймаутов;
-интерактивное взаимодействие с пользователем;
-форматирование цветного вывода в терминале.
-Установка и запуск
-Для Linux
-Установите Python 3 и pip:
-bash
-Копировать
-sudo apt update
-sudo apt install python3 python3-pip git
-Клонируйте репозиторий:
-bash
-Копировать
-git clone https://github.com/zloy-enot618/Olegs_Stresser.git
-Перейдите в папку проекта:
-bash
-Копировать
-cd Olegs_Stresser
-Установите зависимости:
-bash
-Копировать
-pip3 install -r requirements.txt
-   Или, если возникает ошибка:
-
-bash
-Копировать
-python3 -m pip install -r requirements.txt
-Запустите скрипт:
-bash
-Копировать
-python3 b0mb.py
-Для macOS
-Установите Homebrew (если не установлен):
-bash
-Копировать
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-Установите Git и Python:
-bash
-Копировать
-brew install git python
-Клонируйте репозиторий:
-bash
-Копировать
-git clone https://github.com/zloy-enot618/Olegs_Stresser.git
-Перейдите в папку проекта:
-bash
-Копировать
-cd Olegs_Stresser
-Установите зависимости:
-bash
-Копировать
-pip3 install -r requirements.txt
-Запустите скрипт:
-bash
-Копировать
-python3 b0mb.py
-Для Windows
-Установите Python:
-скачайте установщик с официального сайта (python.org);
-при установке отметьте галочку «Add Python to PATH»;
-убедитесь, что установлена версия Python 3.8+.
-Установите Git:
-скачайте Git с официального сайта (git-scm.com);
-запустите установщик и следуйте инструкциям.
-Откройте командную строку (нажмите Win + R, введите cmd и нажмите Enter).
-Клонируйте репозиторий:
-cmd
-Копировать
-git clone https://github.com/zloy-enot618/Olegs_Stresser.git
-Перейдите в папку проекта:
-cmd
-Копировать
-cd Olegs_Stresser
-Установите зависимости:
-cmd
-Копировать
-pip install -r requirements.txt
-Запустите скрипт:
-cmd
-Копировать
-python b0mb.py
-Для Termux (Android)
-Установите Termux из F-Droid или официального сайта.
-Обновите пакеты и установите зависимости:
-bash
-Копировать
-pkg update && pkg upgrade
-pkg install python git
-Клонируйте репозиторий:
-bash
-Копировать
-git clone https://github.com/zloy-enot618/Olegs_Stresser.git
-Перейдите в папку проекта:
-bash
-Копировать
-cd Olegs_Stresser
-Установите зависимости:
-bash
-Копировать
-pip install -r requirements.txt
-Запустите скрипт:
-bash
-Копировать
-python b0mb.py
+# HTTP Request Simulator
+**HTTP Request Simulator** — учебный проект на Python, предназначенный для изучения отправки HTTP-запросов и работы с библиотеками `requests` и `colorama`.
+⚠️ **Важно:** Код предназначен исключительно для образовательных целей. Использование его для атак на реальные серверы **запрещено** и может нарушать законодательство.
+## О проекте
+HTTP Request Simulator демонстрирует:
+*   Отправку HTTP-запросов к указанному URL.
+*   Обработку ошибок и таймаутов.
+*   Интерактивное взаимодействие с пользователем.
+*   Форматирование цветного вывода в терминале.
+## Установка и запуск
+### Для Linux
+1.  **Установите Python 3 и pip:**
+    ```bash
+    sudo apt update
+    sudo apt install python3 python3-pip git
+    ```
+2.  **Клонируйте репозиторий:**
+    ```bash
+    git clone https://github.com/zloy-enot618/Olegs_Stresser.git
+    ```
+3.  **Перейдите в папку проекта:**
+    ```bash
+    cd Olegs_Stresser
+    ```
+4.  **Установите зависимости:**
+    ```bash
+    pip3 install -r requirements.txt
+    ```
+    или (если возникает ошибка):
+    ```bash
+    python3 -m pip install -r requirements.txt
+    ```
+5.  **Запустите скрипт:**
+    ```bash
+    python3 b0mb.py
+    ```
+### Для macOS
+1.  **Установите Homebrew (если не установлен):**
+    ```bash
+    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+    ```
+2.  **Установите Git и Python:**
+    ```bash
+    brew install git python
+    ```
+3.  **Клонируйте репозиторий:**
+    ```bash
+    git clone https://github.com/zloy-enot618/Olegs_Stresser.git
+    ```
+4.  **Перейдите в папку проекта:**
+    ```bash
+    cd Olegs_Stresser
+    ```
+5.  **Установите зависимости:**
+    ```bash
+    pip3 install -r requirements.txt
+    ```
+6.  **Запустите скрипт:**
+    ```bash
+    python3 b0mb.py
+    ```
+### Для Windows
+1.  **Установите Python:**
+    *   Скачайте установщик с [официального сайта](https://www.python.org/).
+    *   При установке отметьте галочку **«Add Python to PATH»**.
+    *   Убедитесь, что установлена версия Python 3.8+.
+2.  **Установите Git:**
+    *   Скачайте Git с [официального сайта](https://git-scm.com/).
+    *   Запустите установщик и следуйте инструкциям.
+3.  **Откройте командную строку** (нажмите `Win + R`, введите `cmd` и нажмите `Enter`).
+4.  **Клонируйте репозиторий:**
+    ```cmd
+    git clone https://github.com/zloy-enot618/Olegs_Stresser.git
+    ```
+5.  **Перейдите в папку проекта:**
+    ```cmd
+    cd Olegs_Stresser
+    ```
+6.  **Установите зависимости:**
+    ```cmd
+    pip install -r requirements.txt
+    ```
+7.  **Запустите скрипт:**
+    ```cmd
+    python b0mb.py
+    ```
+### Для Termux (Android)
+1.  **Установите Termux** из F-Droid или официального сайта.
+2.  **Обновите пакеты и установите зависимости:**
+    ```bash
+    pkg update && pkg upgrade
+    pkg install python git
+    ```
+3.  **Клонируйте репозиторий:**
+    ```bash
+    git clone https://github.com/zloy-enot618/Olegs_Stresser.git
+    ```
+4.  **Перейдите в папку проекта:**
+    ```bash
+    cd Olegs_Stresser
+    ```
+5.  **Установите зависимости:**
+    ```bash
+    pip install -r requirements.txt
+    ```
+6.  **Запустите скрипт:**
+    ```bash
+    python b0mb.py
+    ```
