@@ -12,7 +12,7 @@ print('/    |    \\  |_\\  ___// /_/  >___ \\   /        \\|  |  |  | \\/\\  ___
 print('\\_______  /____/\\___  >___  /____  > /_______  /|__|  |__|    \\___  >____  >____  >\\___  >__|  ')
 print('        \\/          \\/_____/     \\/          \\/                   \\/     \\/     \\/     \\/ ')
 
-scrambled_password = "ofstaotte" ### fsotaotte
+scrambled_password = "ofstaotte"
 
 def transform_input(user_input):
     if len(user_input) < 3:
